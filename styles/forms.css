@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+.form{
+	background: #ecf0f1;
+	text-align:center;
+  	margin: 0 auto;
+	margin-top: 10px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	width:50%;
+	min-width:330px;
+	
+}
+
+input {
+	height: 35px;
+	
+	font-size: 16px;
+	margin-bottom:20px;
+	margin-left:5px;
+	margin-top:2px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 10px;
+  	border: solid 1px #dcdcdc;
+  	transition: box-shadow 0.3s, border 0.3s;
+}
+
+.subject {
+	width:300px;
+}
+
+.label-form{
+	width: 400px;
+		
+}
+
+.birth {
+	width: 150px;
+	margin-right: 15px;
+	
+}
+
+.main-l {
+	font-size:20px;	
+}
+
+.form fieldset{border:0px; padding:0px; margin:0px;}
+
+select {
+   border: 0;
+   color: #000;
+   font-size: 15px;
+   font-weight: bold;
+   padding: 2px 10px;
+   width: 150px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   margin-right: 15px;
+}
+
+.form input.btn-login{ 
+	height:45px;
+	color:#fff;
+	border-radius: 4px;
+	border: none;
+	background-color: #2ECC71;	
+	border-bottom: 4px solid #27AE60;
+
+}
+
+.form input.btn-login:hover	{ 
+	background-color: #27AE60;	
+
+}
+
+.form textarea.textarea-m {
+	border: 2px solid #765942;
+	border-radius: 10px;
+	box-sizing: border-box;
+	width: 300px;
+}
+
