@@ -14,8 +14,8 @@ $value = "W";
 include_once 'dbconnect.php';
 
 $errors = '';
-$link_address = 'http://web.mindwebs.org';
-$myemail = 'mindwebsteam@gmail.com';
+$link_address = 'https://mindwebs.org';
+$myemail = 'to email id here';
 if(empty($_POST['admin'])  || 
    empty($_POST['email']) || 
    empty($_POST['from']) || 
@@ -52,7 +52,7 @@ if( empty($errors))
 	$headers = "From: $from\n"; 
 	$headers .= "Reply-To: $reply";
 	
-	$headers2 = "From: administrator@mindwebs.org \n"; 
+	$headers2 = "From: administrator@abc.com \n"; 
 	$headers2 .= "Reply-To: $reply";
 	
 	mail($to,$email_subject,$email_body,$headers);
